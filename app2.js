@@ -2,7 +2,7 @@ const { createServer } = require("http");
 const { appendFile, readFile, createReadStream, read } = require("fs");
 const path = require("path");
 const { eventEmitter } = require("events");
-cont PORT = 5001;
+const PORT = 5001;
 
 const MovieRec = new EventEmitter();
 
